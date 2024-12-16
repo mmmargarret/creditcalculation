@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "CreditCalculatorAPI.Controllers.CreditCalculatorController",
+    "Method": "GetCreditInfo",
+    "RelativePath": "api/CreditCalculator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CreditCalculatorAPI.Controllers.CreditCalculatorController",
+    "Method": "CalculateCredit",
+    "RelativePath": "api/CreditCalculator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "credit_calculation.CreditRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CreditCalculatorAPI.Controllers.CreditCalculatorController",
+    "Method": "SubmitApplication",
+    "RelativePath": "api/CreditCalculator/Application",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "credit_calculation.CreditApplicationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
